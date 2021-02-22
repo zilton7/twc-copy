@@ -45,21 +45,21 @@ html {
   font-size: 62.5%;
 }
 
+header {
+  min-height: 10rem;
+}
+
 img.logo {
   width: 10rem;
 }
 
-header {
-  min-height: 20vh;
-}
-
 header nav {
   width: 100%;
-  min-height: 10vh;
   display: flex;
   justify-content: space-between;
   position: fixed;
   background: white;
+  min-height: 5rem;
 }
 
 header nav ul li {
@@ -84,14 +84,14 @@ nav .icons img {
 .yellow-ad {
   font-size: 1.1rem;
   background: rgb(255, 217, 0);
-  height: 5rem;
+  min-height: 5rem;
   display: flex;
   align-items: center;
   white-space: nowrap;
   padding: 0 1rem;
   min-width: 100%;
-  margin-top: 10vh;
   position: fixed;
+  margin-top: 5rem;
 }
 
 section.cover {
@@ -312,6 +312,84 @@ footer nav.links ul li a {
   font-weight: bold;
 }
 @media screen and (min-width: 767px) {
+  img.mobile-menu {
+    display: none;
+  }
+
+  .sections {
+    width: 100%;
+    display: flex;
+  }
+
+  .sections ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+  }
+
+  .sections ul li a {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(151, 148, 148);
+    padding: 0 0.8rem;
+  }
+
+  .sections ul li:nth-child(n + 6) {
+    display: none;
+  }
+
+  header .yellow-ad {
+    justify-content: center;
+  }
+
+  section.cover {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-template-rows: 50%;
+  }
+
+  section article.cover-story:nth-child(1) {
+    border-right: 0.9rem solid white;
+    grid-row: 1/3;
+  }
+
+  section article.cover-story:nth-child(1) header h2 {
+    font-size: 3rem;
+  }
+
+  /* hide share icon for smaller covers */
+  section article.cover-story:nth-child(n + 2) header ul li:nth-child(n + 3) {
+    display: none;
+  }
+
+  footer nav.social ul li {
+    margin: 0.5rem;
+    padding: 1rem 1.5rem;
+    background: rgb(58, 58, 58);
+    border-radius: 50%;
+  }
+
+  footer nav.social ul li i {
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+  }
+
+  footer nav.links ul li {
+    font-size: 1.1rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  .copyright {
+    font-size: 1rem;
+  }
+
+  .copyright img {
+    width: 6rem;
+  }
+
   section.funding nav ul {
     display: flex;
     flex-direction: row;
