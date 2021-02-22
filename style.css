@@ -364,6 +364,31 @@ footer nav.links ul li a {
     display: none;
   }
 
+  section.funding nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    min-height: 7rem;
+    padding: 1.3rem 0;
+  }
+
+  section.funding nav ul li {
+    padding-right: 1rem;
+  }
+
+  .cards {
+    flex-direction: row;
+  }
+
+  .card {
+    align-items: center;
+  }
+
+  .card .title-wrapper,
+  .card .body-wrapper {
+    width: 22.5vw;
+  }
+
   footer nav.social ul li {
     margin: 0.5rem;
     padding: 1rem 1.5rem;
@@ -389,32 +414,23 @@ footer nav.links ul li a {
   .copyright img {
     width: 6rem;
   }
-
-  section.funding nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    min-height: 7rem;
-    padding: 1.3rem 0;
-  }
-
-  section.funding nav ul li {
-    padding-right: 1rem;
-  }
-
-  .cards {
-    flex-direction: row;
-  }
-
-  .card {
-    align-items: center;
-  }
-
-  .card .title-wrapper,
-  .card .body-wrapper {
-    width: 30vw;
-  }
 }
 
 @media screen and (min-width: 1023px) {
+  footer nav {
+    padding-top: 5rem;
+  }
+
+  footer nav.social ul li i {
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
+  }
+
+  .copyright {
+    font-size: 2rem;
+  }
+
+  .copyright img {
+    width: 8rem;
+  }
 }
