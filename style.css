@@ -150,12 +150,14 @@ section.funding nav ul span {
 .cards {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
 }
 
 .card {
   display: flex;
   flex-direction: column;
   padding-bottom: 2rem;
+  background: rgba(228, 178, 174, 0.3);
 }
 
 .title-top {
@@ -223,13 +225,6 @@ section.funding nav ul span {
   border-top: orange solid 0.1rem;
   padding: 1rem 2rem;
   font-size: 1.2rem;
-}
-
-.card .body-wrapper {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: rgba(228, 178, 174, 0.3);
 }
 
 footer {
@@ -321,17 +316,17 @@ footer nav.links ul li a {
 
   .cards {
     flex-direction: row;
-    justify-content: space-around;
   }
 
   .card {
     align-items: center;
   }
 
-  .card .title {
+  .card .title-wrapper,
+  .card .body-wrapper {
     width: 30vw;
   }
 }
 
-@media screen and (min-width: 1024pxpx) {
+@media screen and (min-width: 1023px) {
 }
