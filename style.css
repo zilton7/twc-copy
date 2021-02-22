@@ -401,12 +401,6 @@ footer nav.links ul li a {
     color: rgb(255, 255, 255);
   }
 
-  footer nav.links ul li {
-    font-size: 1.1rem;
-    margin: 0.5rem;
-    padding: 0.5rem;
-  }
-
   .copyright {
     font-size: 1rem;
   }
