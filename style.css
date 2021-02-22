@@ -150,18 +150,19 @@ section.funding nav ul span {
 
 .card {
   flex-direction: column;
+  padding-bottom: 2rem;
 }
 
 .title-top {
   background: #f42;
   color: white;
-  padding: 0.5rem;
+  padding: 1rem;
 }
 
 .title-bottom {
   background: rgba(243, 167, 148, 0.568);
   color: white;
-  padding: 1rem 0;
+  padding: 1rem;
 }
 
 .title-top .funding-card-name {
@@ -172,14 +173,17 @@ section.funding nav ul span {
   color: rgb(3, 3, 3);
 }
 
-.card {
-  padding-bottom: 2rem;
+.card .title-wrapper {
+  display: flex;
 }
 
 .card img {
-  width: 4rem;
-  display: float;
-  display: none;
+  width: 3rem;
+  height: 3rem;
+}
+
+.card .title {
+  width: 90vw;
 }
 
 .card h5 {
