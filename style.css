@@ -41,6 +41,10 @@ a:hover {
     ==============================================
 */
 
+html {
+  font-size: 62.5%;
+}
+
 img.logo {
   width: 10rem;
 }
@@ -149,17 +153,20 @@ section.funding nav ul span {
 }
 
 .card {
+  display: flex;
   flex-direction: column;
   padding-bottom: 2rem;
 }
 
 .title-top {
+  font-size: 1.7rem;
   background: #f42;
   color: white;
   padding: 1rem;
 }
 
 .title-bottom {
+  font-size: 1.7rem;
   background: rgba(243, 167, 148, 0.568);
   color: white;
   padding: 1rem;
@@ -180,8 +187,8 @@ section.funding nav ul span {
 }
 
 .card img {
-  width: 3rem;
-  height: 3rem;
+  width: 5rem;
+  height: 5rem;
   position: absolute;
   margin: 1rem 0 0 0.5rem;
 }
@@ -193,7 +200,7 @@ section.funding nav ul span {
 .card h5 {
   text-transform: uppercase;
   color: rgb(116, 116, 116);
-  font-size: 0.7rem;
+  font-size: 1rem;
   margin-left: 50px;
 }
 
@@ -202,7 +209,7 @@ section.funding nav ul span {
 }
 
 .card .category {
-  font-size: 1rem;
+  font-size: 1.2rem;
   padding: 0.5rem 0;
   display: flex;
 }
@@ -214,7 +221,7 @@ section.funding nav ul span {
 p.description {
   border-top: orange solid 0.1rem;
   padding: 1rem 0;
-  font-size: 0.7rem;
+  font-size: 1.2rem;
 }
 
 footer {
@@ -241,14 +248,14 @@ footer nav.social ul {
 }
 
 footer nav.social ul li {
-  margin: 0.1rem;
+  margin: 0.5rem;
   padding: 0.5rem 1rem;
   background: rgb(58, 58, 58);
   border-radius: 50%;
 }
 
 footer nav.social ul li i {
-  font-size: 1rem;
+  font-size: 2rem;
   color: rgb(255, 255, 255);
 }
 
@@ -260,8 +267,8 @@ footer nav.links ul {
 }
 
 footer nav.links ul li {
-  font-size: 0.7rem;
-  margin: 0.1rem;
+  font-size: 0.8rem;
+  margin: 0.5rem;
   padding: 0.5rem;
 }
 
@@ -272,7 +279,7 @@ footer nav.links ul li a {
 }
 
 .copyright img {
-  width: 2rem;
+  width: 3rem;
 }
 
 .copyright {
@@ -282,7 +289,7 @@ footer nav.links ul li a {
   min-height: 5vh;
   color: white;
   background: black;
-  font-size: 0.4rem;
+  font-size: 0.65rem;
 }
 
 .copyright a {
@@ -290,4 +297,29 @@ footer nav.links ul li a {
   color: white;
   padding-left: 0.2rem;
   font-weight: bold;
+}
+@media screen and (min-width: 767px) {
+  section.funding nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    min-height: 7rem;
+    padding: 1.3rem 0;
+  }
+
+  section.funding nav ul li {
+    padding-right: 1rem;
+  }
+
+  .cards {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .card .title {
+    width: 30vw;
+  }
+}
+
+@media screen and (min-width: 1024pxpx) {
 }
