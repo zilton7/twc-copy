@@ -76,6 +76,17 @@ nav .icons {
   justify-content: space-between;
 }
 
+.copyright img {
+  width: 3rem;
+}
+
+.card img {
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  margin: 1rem 0 0 0.5rem;
+}
+
 nav .icons img {
   padding: 1rem;
   border: 0.1rem solid rgba(128, 128, 128, 0.178);
@@ -198,13 +209,6 @@ section.funding nav ul span {
   display: flex;
 }
 
-.card img {
-  width: 5rem;
-  height: 5rem;
-  position: absolute;
-  margin: 1rem 0 0 0.5rem;
-}
-
 .card .title {
   width: 100vw;
 }
@@ -225,6 +229,11 @@ section.funding nav ul span {
   padding: 0.5rem 0;
   display: flex;
   justify-content: flex-start;
+}
+
+footer nav.social ul li i {
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
 }
 
 .card .category i {
@@ -267,11 +276,6 @@ footer nav.social ul li {
   border-radius: 50%;
 }
 
-footer nav.social ul li i {
-  font-size: 2rem;
-  color: rgb(255, 255, 255);
-}
-
 footer nav.links ul {
   display: flex;
   justify-content: center;
@@ -283,10 +287,6 @@ footer nav.links ul li a {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
-}
-
-.copyright img {
-  width: 3rem;
 }
 
 .copyright {
@@ -305,6 +305,7 @@ footer nav.links ul li a {
   padding-left: 0.2rem;
   font-weight: bold;
 }
+
 @media screen and (min-width: 767px) {
   img.mobile-menu {
     display: none;
@@ -335,6 +336,10 @@ footer nav.links ul li a {
     padding: 1rem 1.5rem;
     background: rgb(58, 58, 58);
     border-radius: 50%;
+  }
+
+  section.funding nav ul li {
+    padding-right: 1rem;
   }
 
   footer nav.links ul li {
@@ -377,10 +382,6 @@ footer nav.links ul li a {
     justify-content: flex-start;
     min-height: 7rem;
     padding: 1.3rem 0;
-  }
-
-  section.funding nav ul li {
-    padding-right: 1rem;
   }
 
   .cards {
