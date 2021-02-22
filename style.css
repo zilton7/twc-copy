@@ -118,20 +118,68 @@ article.cover-story {
   padding: 0 0.3rem;
 }
 
+section.funding {
+  padding: 1rem;
+}
+
 section.funding h2 {
   display: flex;
   justify-content: flex-start;
   color: #f42;
+  font-weight: bold;
 }
 
 section.funding nav ul {
   display: flex;
-  justify-content: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 7rem;
   color: #f42;
+  padding: 1.3rem 0;
 }
 
 section.funding nav ul span {
+  display: none;
   padding: 0 0.7rem;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  flex-direction: column;
+}
+
+.title-top {
+  background: #f42;
+  color: white;
+}
+
+.title-bottom {
+  background: rgba(243, 151, 64, 0.568);
+  color: white;
+}
+
+.title-top .funding-card-name {
+  color: white;
+}
+
+.title-bottom .funding-card-capital {
+  color: rgb(3, 3, 3);
+}
+
+.card img {
+  width: 4rem;
+  display: float;
+  display: none;
+}
+
+.card h5 {
+  text-transform: uppercase;
+  color: rgb(116, 116, 116);
+  font-size: 0.7rem;
 }
 
 footer {
