@@ -79,3 +79,41 @@ header .yellow-ad {
   white-space: nowrap;
   padding: 0 1rem;
 }
+
+section.cover {
+  min-height: 25rem;
+  border-right: white solid 1rem;
+  border-left: white solid 1rem;
+  padding-bottom: 3rem;
+}
+
+article.cover-story {
+  min-height: 14rem;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+
+.cover-header {
+  font-size: 1.2rem;
+  color: white;
+  padding: 0 1rem;
+}
+
+.cover-byline {
+  display: flex;
+  font-size: 1.1rem;
+  list-style: none;
+  padding: 1rem 0;
+}
+
+.cover-byline li {
+  padding: 0 1rem;
+}
+
+.cover-byline li i {
+  padding: 0 0.3rem;
+}
