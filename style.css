@@ -155,11 +155,13 @@ section.funding nav ul span {
 .title-top {
   background: #f42;
   color: white;
+  padding: 0.5rem;
 }
 
 .title-bottom {
-  background: rgba(243, 151, 64, 0.568);
+  background: rgba(243, 167, 148, 0.568);
   color: white;
+  padding: 1rem 0;
 }
 
 .title-top .funding-card-name {
@@ -168,6 +170,10 @@ section.funding nav ul span {
 
 .title-bottom .funding-card-capital {
   color: rgb(3, 3, 3);
+}
+
+.card {
+  padding-bottom: 2rem;
 }
 
 .card img {
@@ -180,6 +186,26 @@ section.funding nav ul span {
   text-transform: uppercase;
   color: rgb(116, 116, 116);
   font-size: 0.7rem;
+}
+
+.card .categories {
+  padding: 1rem;
+}
+
+.card .category {
+  font-size: 1rem;
+  padding: 0.5rem 0;
+  display: flex;
+}
+
+.card .category i {
+  padding: 0 0.5rem;
+}
+
+p.description {
+  border-top: orange solid 0.1rem;
+  padding: 1rem 0;
+  font-size: 0.9rem;
 }
 
 footer {
