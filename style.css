@@ -285,6 +285,13 @@ footer nav.links ul {
   list-style: none;
 }
 
+.copyright a {
+  text-decoration: none;
+  color: white;
+  padding-left: 0.2rem;
+  font-weight: bold;
+}
+
 footer nav.links ul li a {
   color: white;
   text-decoration: none;
@@ -299,13 +306,6 @@ footer nav.links ul li a {
   color: white;
   background: black;
   font-size: 0.65rem;
-}
-
-.copyright a {
-  text-decoration: none;
-  color: white;
-  padding-left: 0.2rem;
-  font-weight: bold;
 }
 
 @media screen and (min-width: 767px) {
