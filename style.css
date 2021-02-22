@@ -194,7 +194,7 @@ section.funding nav ul span {
 }
 
 .card .title {
-  width: 90vw;
+  width: 100vw;
 }
 
 .card h5 {
@@ -212,16 +212,24 @@ section.funding nav ul span {
   font-size: 1.2rem;
   padding: 0.5rem 0;
   display: flex;
+  justify-content: flex-start;
 }
 
 .card .category i {
   padding: 0 0.5rem;
 }
 
-p.description {
+.description p {
   border-top: orange solid 0.1rem;
-  padding: 1rem 0;
+  padding: 1rem 2rem;
   font-size: 1.2rem;
+}
+
+.card .body-wrapper {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(228, 178, 174, 0.3);
 }
 
 footer {
@@ -313,7 +321,11 @@ footer nav.links ul li a {
 
   .cards {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+  }
+
+  .card {
+    align-items: center;
   }
 
   .card .title {
