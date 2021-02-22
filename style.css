@@ -167,10 +167,12 @@ section.funding nav ul span {
 
 .title-top .funding-card-name {
   color: white;
+  margin-left: 50px;
 }
 
 .title-bottom .funding-card-capital {
   color: rgb(3, 3, 3);
+  margin-left: 50px;
 }
 
 .card .title-wrapper {
@@ -180,6 +182,8 @@ section.funding nav ul span {
 .card img {
   width: 3rem;
   height: 3rem;
+  position: absolute;
+  margin: 1rem 0 0 0.5rem;
 }
 
 .card .title {
@@ -190,6 +194,7 @@ section.funding nav ul span {
   text-transform: uppercase;
   color: rgb(116, 116, 116);
   font-size: 0.7rem;
+  margin-left: 50px;
 }
 
 .card .categories {
