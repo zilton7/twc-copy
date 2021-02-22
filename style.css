@@ -118,6 +118,22 @@ article.cover-story {
   padding: 0 0.3rem;
 }
 
+section.funding h2 {
+  display: flex;
+  justify-content: flex-start;
+  color: #f42;
+}
+
+section.funding nav ul {
+  display: flex;
+  justify-content: flex-start;
+  color: #f42;
+}
+
+section.funding nav ul span {
+  padding: 0 0.7rem;
+}
+
 footer {
   display: flex;
   flex-direction: column;
