@@ -60,6 +60,7 @@ header nav {
   position: fixed;
   background: white;
   min-height: 5rem;
+  z-index: 1;
 }
 
 header nav ul li {
@@ -103,6 +104,7 @@ nav .icons img {
   min-width: 100%;
   position: fixed;
   margin-top: 5rem;
+  z-index: 1;
 }
 
 section.cover {
