@@ -279,12 +279,6 @@ footer nav.links ul {
   list-style: none;
 }
 
-footer nav.links ul li {
-  font-size: 0.8rem;
-  margin: 0.5rem;
-  padding: 0.5rem;
-}
-
 footer nav.links ul li a {
   color: white;
   text-decoration: none;
@@ -334,6 +328,19 @@ footer nav.links ul li a {
     text-decoration: none;
     color: rgb(151, 148, 148);
     padding: 0 0.8rem;
+  }
+
+  footer nav.social ul li {
+    margin: 0.5rem;
+    padding: 1rem 1.5rem;
+    background: rgb(58, 58, 58);
+    border-radius: 50%;
+  }
+
+  footer nav.links ul li {
+    font-size: 0.8rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
   }
 
   .sections ul li:nth-child(n + 6) {
@@ -387,13 +394,6 @@ footer nav.links ul li a {
   .card .title-wrapper,
   .card .body-wrapper {
     width: 22.5vw;
-  }
-
-  footer nav.social ul li {
-    margin: 0.5rem;
-    padding: 1rem 1.5rem;
-    background: rgb(58, 58, 58);
-    border-radius: 50%;
   }
 
   footer nav.social ul li i {
