@@ -299,6 +299,11 @@ footer nav.social ul li {
   border-radius: 50%;
 }
 
+footer nav.social ul li i {
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+}
+
 .card .category i {
   padding: 0 0.5rem;
 }
@@ -324,11 +329,6 @@ footer nav.social ul {
   justify-content: center;
   align-items: center;
   list-style: none;
-}
-
-footer nav.social ul li i {
-  font-size: 1.5rem;
-  color: rgb(255, 255, 255);
 }
 
 footer nav.links ul {
