@@ -230,6 +230,10 @@ section.funding nav ul li.seperator {
   background: rgba(228, 178, 174, 0.3);
 }
 
+.card-last {
+  display: none;
+}
+
 .title-top {
   font-size: 1.7rem;
   background: #f42;
@@ -494,7 +498,7 @@ footer nav.links ul li a {
 
   .card .title-wrapper,
   .card .body-wrapper {
-    width: 22.5vw;
+    width: 30vw;
   }
 }
 
@@ -523,5 +527,14 @@ footer nav.links ul li a {
     font-size: 1.5rem;
     margin-bottom: 26rem;
     margin-left: 73rem;
+  }
+
+  .card .title-wrapper,
+  .card .body-wrapper {
+    width: 22.5vw;
+  }
+
+  .card-last {
+    display: flex;
   }
 }
