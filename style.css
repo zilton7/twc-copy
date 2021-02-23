@@ -322,6 +322,10 @@ footer nav.links ul li a {
 }
 
 @media screen and (min-width: 767px) {
+  img.logo {
+    display: none;
+  }
+
   img.mobile-menu {
     display: none;
   }
@@ -345,6 +349,30 @@ footer nav.links ul li a {
     z-index: 0;
     margin: 0;
     min-height: rem;
+    padding: 0 2rem;
+  }
+
+  nav.main-menu ul li {
+    padding-right: 1rem;
+  }
+
+  header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background: white;
+    min-height: 7rem;
+    z-index: 1;
+    margin-top: 2rem;
+  }
+
+  .yellow-ad {
+    margin-top: 8rem;
+  }
+
+  section.cover {
+    margin-top: 13rem;
   }
 
   .sections {
