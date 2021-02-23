@@ -197,9 +197,13 @@ section.funding nav ul {
   padding: 1.3rem 0;
 }
 
-section.funding nav ul span {
-  display: none;
+section.funding nav ul li a {
   padding: 0 0.7rem;
+  color: coral;
+}
+
+section.funding nav ul p {
+  display: none;
 }
 
 .cards {
@@ -265,6 +269,10 @@ section.funding nav ul span {
   justify-content: flex-start;
 }
 
+.category a p {
+  color: black;
+}
+
 footer nav.social ul li i {
   font-size: 2rem;
   color: rgb(255, 255, 255);
@@ -275,6 +283,7 @@ footer nav.social ul li i {
 }
 
 .description p {
+  color: black;
   border-top: orange solid 0.1rem;
   padding: 1rem 2rem;
   font-size: 1.2rem;
@@ -423,6 +432,10 @@ footer nav.links ul li a {
 
   section.funding nav ul li {
     padding-right: 1rem;
+  }
+
+  section.funding nav ul p {
+    display: flex;
   }
 
   footer nav.links ul li {
