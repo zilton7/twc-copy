@@ -201,6 +201,13 @@ section.funding nav ul {
   padding: 1.3rem 0;
 }
 
+.copyright a {
+  text-decoration: none;
+  color: white;
+  padding-left: 0.2rem;
+  font-weight: bold;
+}
+
 section.funding nav ul li a {
   padding: 0 0.7rem;
   color: coral;
@@ -277,11 +284,6 @@ section.funding nav ul li.seperator {
   color: black;
 }
 
-footer nav.social ul li i {
-  font-size: 2rem;
-  color: rgb(255, 255, 255);
-}
-
 .card .category i {
   padding: 0 0.5rem;
 }
@@ -339,13 +341,6 @@ footer nav.links ul li {
   padding: 0 0.5rem;
 }
 
-.copyright a {
-  text-decoration: none;
-  color: white;
-  padding-left: 0.2rem;
-  font-weight: bold;
-}
-
 footer nav.links ul li a {
   color: white;
   text-decoration: none;
@@ -383,13 +378,19 @@ footer nav.links ul li a {
     position: fixed;
   }
 
+  .sections ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+  }
+
   nav.main-menu ul {
     visibility: visible;
     display: flex;
     background: black;
     z-index: 0;
     margin: 0;
-    min-height: rem;
     padding: 0 2rem;
   }
 
@@ -412,20 +413,9 @@ footer nav.links ul li a {
     margin-top: 8rem;
   }
 
-  section.cover {
-    margin-top: 13rem;
-  }
-
   .sections {
     width: 100%;
     display: flex;
-  }
-
-  .sections ul {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    list-style: none;
   }
 
   .sections ul li a {
@@ -466,6 +456,7 @@ footer nav.links ul li a {
   }
 
   section.cover {
+    margin-top: 13rem;
     display: grid;
     grid-template-columns: 65% 35%;
     grid-template-rows: 50%;
