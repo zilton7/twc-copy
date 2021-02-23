@@ -125,20 +125,17 @@ section.cover {
 }
 
 article.story-1 {
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),
     url("./images/Opal-796x417.jpg");
 }
 
 article.story-2 {
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),
     url("./images/Untitled-design-2021-01-26T112752.972-796x417.png");
 }
 
 article.story-3 {
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),
     url("./images/Gemini2-duplicates-monitor-alert-e1611566958933-796x420.png");
 }
 
@@ -181,12 +178,15 @@ article.cover-story {
   padding: 0 0.3rem;
 }
 
-section.funding {
+section.funding,
+section.hard-fork {
   padding: 1rem;
 }
 
-section.funding h2 {
+section.funding h2,
+section.hard-fork h2 {
   display: flex;
+  font-size: 2rem;
   justify-content: flex-start;
   color: #f42;
   font-weight: bold;
@@ -293,6 +293,17 @@ section.funding nav ul li.seperator {
 
 .category a p {
   color: black;
+}
+
+.hard-fork ul li h4 a {
+  color: black;
+}
+
+.hard-fork ul li article.popular-1 {
+  min-height: 30rem;
+  margin: 1rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)),
+    url("./images/1280px-GameStop_Globen-e1611550531323-368x276.jpg");
 }
 
 footer nav.social ul li {
@@ -504,8 +515,7 @@ footer nav.links ul li a {
 
 @media screen and (min-width: 1023px) {
   article.story-1 {
-    background:
-      linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 0, 0, 1)),
+    background: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 0, 0, 1)),
       url("./images/Opal-796x417.jpg");
     background-size: cover;
   }
