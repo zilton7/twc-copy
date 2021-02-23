@@ -146,6 +146,10 @@ article.story-3 {
   display: none;
 }
 
+.cover-image-date {
+  display: none;
+}
+
 article.cover-story {
   min-height: 14rem;
   background-size: cover;
@@ -501,26 +505,9 @@ footer nav.links ul li a {
   .card .body-wrapper {
     width: 22.5vw;
   }
-
-  /* footer nav.social ul li i {
-    font-size: 2rem;
-    color: rgb(255, 255, 255);
-  }
-
-  .copyright {
-    font-size: 1rem;
-  }
-
-  .copyright img {
-    width: 6rem;
-  } */
 }
 
 @media screen and (min-width: 1023px) {
-  article.cover-story {
-    /* background: url("./images/cover-gradient.webp"); */
-  }
-
   article.story-1 {
     background: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 0, 0, 1)),
       url("./images/Opal-796x417.jpg");
@@ -537,20 +524,12 @@ footer nav.links ul li a {
     width: 30rem;
   }
 
-  /* footer nav {
-    padding-top: 5rem;
+  .cover-image-date {
+    display: flex;
+    position: absolute;
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 26rem;
+    margin-left: 73rem;
   }
-
-  footer nav.social ul li i {
-    font-size: 4rem;
-    color: rgb(255, 255, 255);
-  }
-
-  .copyright {
-    font-size: 2rem;
-  }
-
-  .copyright img {
-    width: 8rem;
-  } */
 }
