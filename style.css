@@ -46,7 +46,11 @@ html {
 }
 
 header {
-  min-height: 10rem;
+  min-height: 15%;
+}
+
+body {
+  min-height: 85%;
 }
 
 img.logo {
@@ -59,8 +63,9 @@ header nav {
   justify-content: space-between;
   position: fixed;
   background: white;
-  min-height: 5rem;
+  min-height: 7rem;
   z-index: 1;
+  margin-top: 0;
 }
 
 header nav ul li {
@@ -71,9 +76,16 @@ header nav ul li {
   display: none;
 }
 
+nav.main-menu {
+  display: none;
+}
+
+nav.main-menu ul {
+  display: none;
+}
+
 nav .icons {
   display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 
@@ -103,7 +115,7 @@ nav .icons img {
   padding: 0 1rem;
   min-width: 100%;
   position: fixed;
-  margin-top: 5rem;
+  margin-top: 4.6rem;
   z-index: 1;
 }
 
@@ -112,6 +124,7 @@ section.cover {
   border-right: white solid 1rem;
   border-left: white solid 1rem;
   padding-bottom: 3rem;
+  margin-top: 10rem;
 }
 
 article.cover-story {
@@ -311,6 +324,27 @@ footer nav.links ul li a {
 @media screen and (min-width: 767px) {
   img.mobile-menu {
     display: none;
+  }
+
+  nav.main-menu {
+    visibility: visible;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    z-index: 2;
+    margin: 0;
+    min-height: 3rem;
+    position: fixed;
+  }
+
+  nav.main-menu ul {
+    visibility: visible;
+    display: flex;
+    background: black;
+    z-index: 0;
+    margin: 0;
+    min-height: rem;
   }
 
   .sections {
