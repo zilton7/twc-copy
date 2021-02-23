@@ -125,18 +125,21 @@ section.cover {
 }
 
 article.story-1 {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),
-    url("./images/Opal-796x417.jpg");
+  background:
+      linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),
+      url("./images/Opal-796x417.jpg");
 }
 
 article.story-2 {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),
-    url("./images/Untitled-design-2021-01-26T112752.972-796x417.png");
+  background:
+      linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),
+      url("./images/Untitled-design-2021-01-26T112752.972-796x417.png");
 }
 
 article.story-3 {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),
-    url("./images/Gemini2-duplicates-monitor-alert-e1611566958933-796x420.png");
+  background:
+      linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),
+      url("./images/Gemini2-duplicates-monitor-alert-e1611566958933-796x420.png");
 }
 
 .embedded-image {
