@@ -127,10 +127,29 @@ section.cover {
   margin-top: 10rem;
 }
 
+article.story-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),
+    url("./images/Opal-796x417.jpg");
+}
+
+article.story-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),
+    url("./images/Untitled-design-2021-01-26T112752.972-796x417.png");
+}
+
+article.story-3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)),
+    url("./images/Gemini2-duplicates-monitor-alert-e1611566958933-796x420.png");
+}
+
+.embedded-image {
+  display: none;
+}
+
 article.cover-story {
   min-height: 14rem;
-  background-size: cover !important;
-  background-repeat: no-repeat !important;
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -476,6 +495,26 @@ footer nav.links ul li a {
 }
 
 @media screen and (min-width: 1023px) {
+  article.cover-story {
+    /* background: url("./images/cover-gradient.webp"); */
+  }
+
+  article.story-1 {
+    background: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 0, 0, 1)),
+      url("./images/Opal-796x417.jpg");
+  }
+
+  .embedded-image {
+    display: flex;
+    position: absolute;
+    margin-bottom: 22rem;
+    margin-left: 1.5rem;
+  }
+
+  .embedded-image img {
+    width: 30rem;
+  }
+
   footer nav {
     padding-top: 5rem;
   }
