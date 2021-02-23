@@ -511,6 +511,7 @@ footer nav.links ul li a {
   article.story-1 {
     background: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 0, 0, 1)),
       url("./images/Opal-796x417.jpg");
+    background-size: cover;
   }
 
   .embedded-image {
