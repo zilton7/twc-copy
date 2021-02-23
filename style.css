@@ -206,7 +206,7 @@ section.funding nav ul li a {
   color: coral;
 }
 
-section.funding nav ul p {
+section.funding nav ul li.seperator {
   display: none;
 }
 
@@ -447,7 +447,7 @@ footer nav.links ul li a {
     padding-right: 1rem;
   }
 
-  section.funding nav ul p {
+  section.funding nav ul li.seperator {
     display: flex;
   }
 
