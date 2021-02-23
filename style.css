@@ -5,6 +5,7 @@
 */
 body {
   margin: 0;
+  min-height: 85%;
 }
 
 :root {
@@ -47,10 +48,6 @@ html {
 
 header {
   min-height: 15%;
-}
-
-body {
-  min-height: 85%;
 }
 
 img.logo {
@@ -284,19 +281,26 @@ section.funding nav ul li.seperator {
   justify-content: flex-start;
 }
 
-.category a p {
-  color: black;
-}
-
-.card .category i {
-  padding: 0 0.5rem;
-}
-
 .description p {
   color: black;
   border-top: orange solid 0.1rem;
   padding: 1rem 2rem;
   font-size: 1.2rem;
+}
+
+.category a p {
+  color: black;
+}
+
+footer nav.social ul li {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: rgb(58, 58, 58);
+  border-radius: 50%;
+}
+
+.card .category i {
+  padding: 0 0.5rem;
 }
 
 footer {
@@ -320,13 +324,6 @@ footer nav.social ul {
   justify-content: center;
   align-items: center;
   list-style: none;
-}
-
-footer nav.social ul li {
-  margin: 0.5rem;
-  padding: 0.5rem 1rem;
-  background: rgb(58, 58, 58);
-  border-radius: 50%;
 }
 
 footer nav.social ul li i {
