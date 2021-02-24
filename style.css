@@ -179,12 +179,14 @@ article.cover-story {
 }
 
 section.funding,
-section.hard-fork {
+section.hard-fork,
+section.stories {
   padding: 1rem;
 }
 
 section.funding h2,
-section.hard-fork h2 {
+section.hard-fork h2,
+section.stories h2 {
   display: flex;
   font-size: 2rem;
   justify-content: flex-start;
@@ -388,6 +390,41 @@ article.popular h3 {
   font-weight: 100;
   color: #000;
   padding-left: 0.5rem;
+}
+
+.story {
+  display: flex;
+  align-items: center;
+}
+
+.story-title {
+  color: black;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.story-image {
+  height: 7rem;
+  width: 7rem;
+  padding: 0 1rem;
+  margin: 1rem 0;
+}
+
+.story-1 .story-image {
+  background: url("./images/california-car-ev-hydrogen-future-electruc-fcev-ev-480x270.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.story-byline {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 1rem;
+}
+
+.story-byline li {
+  padding-right: 1rem;
 }
 
 footer nav.social ul li {
