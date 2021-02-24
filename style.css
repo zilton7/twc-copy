@@ -404,7 +404,7 @@ article.popular h3 {
 }
 
 .story-image {
-  height: 7rem;
+  height: 5rem;
   width: 7rem;
   padding: 0 1rem;
   margin: 1rem 0;
@@ -412,6 +412,53 @@ article.popular h3 {
 
 .story-1 .story-image {
   background: url("./images/california-car-ev-hydrogen-future-electruc-fcev-ev-480x270.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.story-2 .story-image {
+  background: url("./images/header-image-bernie-sitting-meme-analysis-516x270.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.story-3 .story-image {
+  background: url("./images/california-car-ev-hydrogen-future-electruc-fcev-ev-480x270.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.story-4 .story-image {
+  background: url("./images/header-image-bernie-sitting-meme-analysis-516x270.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.story-5 .story-image {
+  background: url("./images/california-car-ev-hydrogen-future-electruc-fcev-ev-480x270.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.story-6 .story-image {
+  background: url("./images/header-image-bernie-sitting-meme-analysis-516x270.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.story-7 .story-image {
+  background: url("./images/california-car-ev-hydrogen-future-electruc-fcev-ev-480x270.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.story-8 .story-image {
+  background: url("./images/header-image-bernie-sitting-meme-analysis-516x270.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
