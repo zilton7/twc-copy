@@ -519,6 +519,41 @@ section.deals div a {
   background-repeat: no-repeat;
 }
 
+.deal-2 .deal-image {
+  background: url("./images/sale_24707_primary_image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.deal-3 .deal-image {
+  background: url("./images/sale_162647_primary_image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.deal-4 .deal-image {
+  background: url("./images/sale_28088_primary_image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.deal-5 .deal-image {
+  background: url("./images/sale_24707_primary_image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.deal-6 .deal-image {
+  background: url("./images/sale_162647_primary_image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 footer nav.social ul li {
   margin: 0.5rem;
   padding: 0.5rem 1rem;
