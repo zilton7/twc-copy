@@ -180,13 +180,15 @@ article.cover-story {
 
 section.funding,
 section.hard-fork,
-section.stories {
+section.stories,
+section.deals {
   padding: 1rem;
 }
 
 section.funding h2,
 section.hard-fork h2,
-section.stories h2 {
+section.stories h2,
+section.deals h2 {
   display: flex;
   font-size: 2rem;
   justify-content: flex-start;
@@ -472,6 +474,49 @@ article.popular h3 {
 
 .story-byline li {
   padding-right: 1rem;
+}
+
+section.deals div a {
+  color: rgb(255, 123, 0);
+  font-size: 1rem;
+}
+
+.deals-header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.deal {
+  display: flex;
+  padding: 1rem 0;
+}
+
+.deal-byline {
+  padding: 1rem 1rem;
+}
+
+.deal-byline p span {
+  padding: 0 1rem 0 0;
+  color: rgb(114, 114, 114);
+  text-decoration: line-through;
+}
+
+.deal-image {
+  height: 5rem;
+  width: 8rem;
+}
+
+.deal-title {
+  color: black;
+  padding: 0 1rem;
+}
+
+.deal-1 .deal-image {
+  background: url("./images/sale_28088_primary_image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 footer nav.social ul li {
