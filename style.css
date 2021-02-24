@@ -371,18 +371,23 @@ article.popular h3 {
   background-repeat: no-repeat;
 }
 
-.hard-fork .headline ul {
+.headline-wrapper {
   padding: 1rem;
   list-style: initial;
   color: red;
 }
 
-.hard-fork .headline ul li {
+.hard-fork .headline {
   padding: 1rem 0;
 }
 
-.hard-fork .headline ul li a {
+.headline-title {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 1.3rem;
   font-weight: 100;
+  color: #000;
+  padding-left: 0.5rem;
 }
 
 footer nav.social ul li {
